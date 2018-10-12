@@ -3,9 +3,9 @@ package entity;
 public class Personne {
 	
 	//Définition des attributs :
-	String nom = null;
-	String prenom =null;
-	AdressePostale adressePostale =null;
+	public String nom = null;
+	public String prenom =null;
+	public AdressePostale adressePostale =null;
 	
 	//Création d'un constructeur : (source -> Generate constructor using Fields)
 	public Personne(String nom, String prenom, AdressePostale adressePostale) {

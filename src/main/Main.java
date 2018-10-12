@@ -27,11 +27,14 @@ public class Main {
 		System.out.println("Test Personne : \r\n\nPremière Personne :");
 		Personne personne1 = new Personne("Bastianelli","Matthieu",adresse1);
 		System.out.println(personne1.toString());
+		personne1.adressePostale.affiche();
+
 
 		// 1ere Personne
 		System.out.println("\nDeuxième Personne :");
 		Personne personne2 = new Personne("Bastianelli","Abdenour",adresse2);
 		System.out.println(personne2.toString());
+		personne2.adressePostale.affiche();
 		
 	}
 
