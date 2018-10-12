@@ -7,10 +7,16 @@ public class AdressePostale {
 	String nomDeRue = null;
 	int codePostale = Integer.MIN_VALUE;
 	String nomVille = null;
-	
-	//Création d'un constructeur :
+
+
+	/**
+	 * Création d'un constructeur :
+	 * @param numeroDeRue
+	 * @param nomDeRue
+	 * @param codePostale
+	 * @param nomVille
+	 */
 	public AdressePostale(int numeroDeRue, String nomDeRue, int codePostale, String nomVille){
-		
 		// importation du constructeur par défaut
 		super();
 		//Affectation de valeur au attribut de l'objet créé
@@ -22,7 +28,9 @@ public class AdressePostale {
 	
 	
 	
-	//Création d'une méthode 'affiche()' pour afficher les informations des objets AdressePostale :
+	/**
+	 * Création d'une méthode 'affiche()' pour afficher les informations des objets AdressePostale :
+	 */
 	public void affiche() {
 		System.out.println("Numero De Rue : "+numeroDeRue);
 		System.out.println("Nom De Rue : "+nomDeRue);
