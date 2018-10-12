@@ -20,6 +20,8 @@ public class AdressePostale {
 		this.nomVille = nomVille;
 	}
 	
+	
+	
 	//Création d'une méthode 'affiche()' pour afficher les informations des objets AdressePostale :
 	public void affiche() {
 		System.out.println("Numero De Rue : "+numeroDeRue);
@@ -27,6 +29,43 @@ public class AdressePostale {
 		System.out.println("Numéro de code Postale : "+codePostale);
 		System.out.println("Nom De Ville : "+nomVille+"\r\n");
 	}
+
+
+
+	//Création des getter et setter :
+	public int getNumeroDeRue() {
+		return numeroDeRue;
+	}
+
+	public void setNumeroDeRue(int numeroDeRue) {
+		this.numeroDeRue = numeroDeRue;
+	}
+
+	public String getNomDeRue() {
+		return nomDeRue;
+	}
+
+	public void setNomDeRue(String nomDeRue) {
+		this.nomDeRue = nomDeRue;
+	}
+
+	public int getCodePostale() {
+		return codePostale;
+	}
+
+	public void setCodePostale(int codePostale) {
+		this.codePostale = codePostale;
+	}
+
+	public String getNomVille() {
+		return nomVille;
+	}
+
+	public void setNomVille(String nomVille) {
+		this.nomVille = nomVille;
+	}
+	
+	
 	
 	
 
